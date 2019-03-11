@@ -32,8 +32,6 @@ image vidar2 = "Vidar glad2.png"
 image vidar3 = "Vidar glad3.png"
 image vidar4 = "Vidar glad4.png"
 image vidar5 = "Vidar glad5.png"
-image vidar6 = "Vidar glad6.png"
-image vidar7 = "Vidar glad7.png"
 image vidar ledsen = "Vidar ledsen.png"
 
 # Declare characters used by this game.
@@ -57,8 +55,6 @@ label start:
     scene Grindy
 
     "The Fable of Grindberg"
-
-    stop music fadeout 1
 
     scene skola
 
