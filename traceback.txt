@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 305, in script
+    hide vidar2 with disolve
+  File "game/script.rpy", line 305, in <module>
+    hide vidar2 with disolve
+NameError: name 'disolve' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 305, in script
+    hide vidar2 with disolve
+  File "C:\Users\Martin\Documents\Ren'Py\renpy\ast.py", line 1352, in execute
+    paired = renpy.python.py_eval(self.paired)
+  File "C:\Users\Martin\Documents\Ren'Py\renpy\python.py", line 1944, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Martin\Documents\Ren'Py\renpy\python.py", line 1937, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 305, in <module>
+    hide vidar2 with disolve
+NameError: name 'disolve' is not defined
+
+Windows-8-6.2.9200
+Ren'Py 7.1.3.1092
+Sagan om Grindberg 0.0
+Mon Mar 11 00:03:01 2019
