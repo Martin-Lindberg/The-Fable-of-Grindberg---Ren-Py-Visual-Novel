@@ -206,7 +206,11 @@ label start:
 
         show grindberg ledsen at right
 
+        stop music fadeout 1
+
         b "Senare på kvällen satt Grindberg och såg upp på himlen."
+
+        play music "Parabola - Tool.mp3"
 
         b "Det var en vacker kväll, alldeles tyst och med ett vackert norrsken i skyn."
 
